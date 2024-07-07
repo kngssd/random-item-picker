@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h2,
+h1 {
+  text-align: center;
+  background-color: beige;
+  font-size: medium;
+  color: blue;
+}
+
+.style-type {
+  text-align: center;
+  box-sizing: content-box;
+  margin: 5cm;
+}
+
+.display-linebreak {
+  white-space: pre-line;
+}
